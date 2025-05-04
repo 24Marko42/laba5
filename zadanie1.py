@@ -7,4 +7,7 @@ result3 = list(map(lambda x: x / 2, filter(lambda x: x > 17, numbers)))
 numbers2 = range(10, 100)  # Все двузначные числа
 
 result4 = sum(map(lambda x: x**2, filter(lambda x: x % 9 == 0, numbers2)))
-print(result, result2, result3, result4)
+print(result)
+print(result2)
+print(result3)
+print(result4)
